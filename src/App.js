@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { Button, Layout, Card } from 'antd';
-const { Header, Footer, Sider, Content, Menu, Breadcrumb } = Layout;
+import {  Layout } from 'antd';
+const { Footer, Content,  } = Layout;
 
 
 class App extends Component {
