@@ -19,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gh-pages": "gh-pages -d build"
+    "gh-pages": "gh-pages -d build",
+    "now-build": "umi build",
+    "now-deploy": "now"
   },
   "eslintConfig": {
     "extends": "react-app"
