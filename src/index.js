@@ -1,3 +1,9 @@
+/*
+ * @Author: q1lon<q1lon.zhang@gmail.com>
+ * @Date: 2020-06-04 09:18:22
+ * @LastEditTime: 2020-09-16 09:49:56
+ * @FilePath: /zql-resume/src/index.js
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
