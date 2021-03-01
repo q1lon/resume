@@ -13,19 +13,18 @@
     "react": "^17.0.1",
     "react-amap": "^1.2.8",
     "react-dom": "^17.0.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "umi": "^3.3.9"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "umi dev",
+    "build": "umi build",
+    "analyze":"ANALYZE=1 umi build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "gh-pages": "gh-pages -d build",
     "now-build": "umi build",
     "now-deploy": "now"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -40,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@umijs/preset-react": "^1",
+    "@umijs/fabric": "^2.2.2",
     "gh-pages": "^3.0.0"
   }
 }

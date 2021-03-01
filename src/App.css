@@ -50,21 +50,4 @@
   min-height: 907px;
 }
 
-.App {
-  /* text-align: center; */
-  display: inline-flex;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-}
 
-.sider {
-  width: 20%;
-  background-color: #DDDDDD;
-}
-.content {
-  width: 80%;
-  background-color: #ffffff;
-}
