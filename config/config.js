@@ -1,7 +1,7 @@
 /*
  * @Author: q1lon<keyron.zhang@gmail.com>
  * @Date: 2021-03-01 16:45:55
- * @LastEditTime: 2021-03-01 17:59:07
+ * @LastEditTime: 2021-03-02 11:57:42
  * @FilePath: /zql-resume/config/config.js
  */
 import { defineConfig } from "umi";
@@ -12,6 +12,11 @@ export default defineConfig({
   nodeModulesTransform: {
     type: "none",
     exclude: [],
+  },
+  dva: {
+    immer: true,
+    hmr: false,
+    skipModelValidate: true
   },
   devtool: false,// SourceMap
   base: "/",

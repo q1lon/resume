@@ -1,21 +1,22 @@
 /*
  * @Author: q1lon<keyron.zhang@gmail.com>
  * @Date: 2021-03-01 16:48:09
- * @LastEditTime: 2021-03-01 18:40:10
- * @FilePath: /zql-resume/src/pages/user/index.js
+ * @LastEditTime: 2021-03-02 13:20:34
+ * @FilePath: /zql-resume/src/pages/user/index.jsx
  */
 import React, { Component } from "react";
+import { IndexModelState, ConnectRC, Loading, connect } from "umi";
 import "./index.less";
-
 class Index extends Component {
-
   render() {
-    return (
-      <div className="App">
-          user
-      </div>
-    );
+    console.log(this);
+    const { user } = this.props;
+
+    return <div className="App">user:{user.name}</div>;
   }
 }
 
-export default Index;
+export default connect(({ user, loading }) => ({
+  user,
+  loading: loading.models.user,
+}))(Index);
