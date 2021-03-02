@@ -1,4 +1,5 @@
 import { Effect, ImmerReducer, Reducer, Subscription } from 'umi';
+import { getList } from '../services/user';
 
 const UserModel = {
   namespace: 'user',
@@ -9,6 +10,9 @@ const UserModel = {
 
   effects: {
     *query({ payload }, { call, put }) {
+      console.log('222')
+      const user = yield call(getList, payload);
+      yield put({ type: 'save', payload: user });
     },
   },
   reducers: {
