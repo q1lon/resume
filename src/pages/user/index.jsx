@@ -1,7 +1,7 @@
 /*
  * @Author: q1lon<keyron.zhang@gmail.com>
  * @Date: 2021-03-01 16:48:09
- * @LastEditTime: 2021-03-02 14:35:49
+ * @LastEditTime: 2021-03-12 09:45:54
  * @FilePath: /zql-resume/src/pages/user/index.jsx
  */
 import React, { Component } from "react";
@@ -29,7 +29,7 @@ class Index extends Component {
     return (
       <div className="App">
         user:{user.name}
-        <Button onClick={()=>this.handleBtn(1)}>点击</Button>
+        <Button onClick={()=>this.handleBtn(1)}>点击按钮</Button>
       </div>
     );
   }
