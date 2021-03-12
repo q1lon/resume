@@ -10,10 +10,12 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.13.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
     "react": "^17.0.1",
     "react-amap": "^1.2.8",
     "react-dom": "^17.0.1",
     "react-scripts": "^3.4.1",
+    "redbox-react": "^1.6.0",
     "redux-logger": "^3.0.6",
     "umi": "^3.3.9"
   },

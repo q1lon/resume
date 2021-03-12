@@ -1,7 +1,13 @@
 /*
  * @Author: q1lon<keyron.zhang@gmail.com>
  * @Date: 2021-03-01 16:45:55
- * @LastEditTime: 2021-03-12 10:16:28
+ * @LastEditTime: 2021-03-12 14:05:11
+ * @FilePath: /zql-resume/config/config.js
+ */
+/*
+ * @Author: q1lon<keyron.zhang@gmail.com>
+ * @Date: 2021-03-01 16:45:55
+ * @LastEditTime: 2021-03-12 14:04:20
  * @FilePath: /zql-resume/config/config.js
  */
 import { defineConfig } from "umi";
@@ -24,9 +30,10 @@ export default defineConfig({
   outputPath: './dist',
   hash: true,
   history: {
-    type: "hash",
+    type: "browser", //hash
   },
   routes: routes,
+  exportStatic: {},
   dynamicImport: {
     loading: '@/Loading',
   },
