@@ -11,6 +11,7 @@
     "react-scripts": "^3.4.1",
     "redbox-react": "^1.6.0",
     "redux-logger": "^3.0.6",
+    "socket.io-client": "^4.0.0",
     "umi": "^3.3.9"
   },
   "scripts": {
